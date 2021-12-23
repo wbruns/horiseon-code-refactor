@@ -1,3 +1,4 @@
+/* removing default browser styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* color and styling properties for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +20,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* distinguishes the color of "seo" in header h1 */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* defines font size and style of nav bar as well as positioning on the right of the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,12 +36,12 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-
+/* allows the links to display inline, rather than stacked */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* sets font color for all links and removes hyperlink style */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* sets and styles the background image for the hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* this class is set to define the image positioning in .content to the left and allow the text to sit next to it */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* this class is set to define the image positioning in .content to the right and allow the text to sit next to it */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* adjusts the main content to sit on the left and allow the .benefits sidebar to sit on the right */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styling for the .benefits sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
