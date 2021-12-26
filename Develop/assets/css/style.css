@@ -59,16 +59,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* this class is set to define the image positioning in .content to the left and allow the text to sit next to it */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* this class is set to define the image positioning in .content to the right and allow the text to sit next to it */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* adjusts the main content to sit on the left and allow the .benefits sidebar to sit on the right */
 .content {
     width: 75%;
@@ -93,7 +83,16 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this class is set to define the image positioning in .content to the left and allow the text to sit next to it */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* this class is set to define the image positioning in .content to the right and allow the text to sit next to it */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 /* main stylings for the .benefits sidebar section */
 .benefits {
     margin-right: 20px;
@@ -121,7 +120,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* styles the footing container, clear helps to center the different text boxes within */
+/* styles the footer container, clear helps to center the different text boxes within */
 footer {
     padding: 30px;
     clear: both;
