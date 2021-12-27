@@ -21,6 +21,10 @@ I have taken some time to refactor the code in index.html and style.css.
 3. Reorganized css rules to match the flow of index.html.
 4. Consolidated some css rules down to reduce redundancy in the code.
 
+## Link to Updated Website
+
+https://wbruns.github.io/horiseon-code-refactor/
+
 ## Screenshots of New Website
 
 ![First screenshot](./Develop/assets/images/Screenshot-1.png)
